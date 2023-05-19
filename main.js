@@ -1,7 +1,11 @@
 var screenWidth = window.innerWidth;
+
+let sideNav = document.querySelector('.side-nav ul li a');
 var navLinks = document.querySelectorAll('.side-nav ul li a');
 var desktop = document.getElementsByClassName("desktop")[0];
 var mobile = document.getElementsByClassName("mobile")[0];
+let navColors = ["#AD7B10", "#AD7B10", "#4E6D6E", "#4E5F33", "#7D2B05", "#6F2700", "#012443", "#B1CC81", "#981F0E", "#233730", "#74B3BC", "#CD8D5D"];
+
 
 if (screenWidth > 450) {
     mobile.classList.remove("active-section")
@@ -35,13 +39,10 @@ function changeActiveNav() {
 
     while (--index && window.scrollY + window.innerHeight / 2 < sections[index].offsetTop) { }
 
-    nav_links.forEach((link) => link.classList.remove('active'));
+    nav_links.forEach((link) => {
+        link.classList.remove('active')
+        // Change the color of all links
+        link.style.backgroundColor = navColors[index];
+    });
     nav_links[index].classList.add('active');
-
 }
-
-
-
-
-
-
