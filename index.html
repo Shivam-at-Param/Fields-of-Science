@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <title>Fields of Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <p>
+        In this code, we've created an array called planetImages that stores the four planet images. We've initialized the planetImage property of each planet using the getRandomPlanetImage() function, which returns a randomly chosen image from the planetImages array.
+
+        Now you need to modify the draw() function to use the planet's own planetImage property when drawing the planets:</p> -->
+    <div class="top-nav">
+        <ul>
+            <li id="logo"><a href="#logo"></a></li>
+            <li><a href="http://paraminnovation.org/">Home</a></li>
+        </ul>
+    </div>
+    <div class="welcome">
+        <div id="dSwipe"></div>
+    </div>
+    <div class="desktop">
+        <div class="container">
+            <div id="first" class="first background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="second" class="second background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="third" class="third background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="fourth" class="fourth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="fifth" class="fifth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="sixth" class="sixth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="seventh" class="seventh background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="eight" class="eight background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="ninth" class="ninth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="tenth" class="tenth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="eleventh" class="eleventh background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="twelfth" class="twelfth background" data-speed="0.5">
+                <div class="story">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="side-nav">
+            <ul>
+                <li><a href="#first">
+                        <p>Aeronautics</p>
+                    </a></li>
+                <li><a href="#second">
+                        <p>Anatomy</p>
+                    </a></li>
+                <li><a href="#third">
+                        <p>Botany</p>
+                    </a></li>
+                <li><a href="#fourth">
+                        <p>Mechanincs</p>
+                    </a></li>
+                <li><a href="#fifth">
+                        <p>Geography</p>
+                    </a></li>
+                <li><a href="#sixth">
+                        <p>Mineralogy</p>
+                    </a></li>
+                <li><a href="#seventh">
+                        <p>Physics</p>
+                    </a></li>
+                <li><a href="#eight">
+                        <p>Forestry</p>
+                    </a></li>
+                <li><a href="#ninth">
+                        <p>Medicine</p>
+                    </a></li>
+                <li><a href="#tenth">
+                        <p>Archaeology</p>
+                    </a></li>
+                <li><a href="#eleventh">
+                        <p>Robotics</p>
+                    </a></li>
+                <li><a href="#twelfth">
+                        <p>Accoustics</p>
+                    </a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="mobile">
+        <div class="container">
+            <div id="first" class="first background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="second" class="second background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>                    
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="third" class="third background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="fourth" class="fourth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="fifth" class="fifth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="sixth" class="sixth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="seventh" class="seventh background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="eight" class="eight background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="ninth" class="ninth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="tenth" class="tenth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="eleventh" class="eleventh background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="twelfth" class="twelfth background" data-speed="0.5">
+                <div class="m-story">
+                    <div id="title"></div>
+                    <div id="img"></div>
+                    <div id="num"></div>
+                    <div id="paraContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+</html>

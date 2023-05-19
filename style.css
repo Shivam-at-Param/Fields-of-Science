@@ -1,0 +1,873 @@
+* {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body,
+html {
+    height: 100%;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    height: 50px;
+    z-index: 1002;
+}
+
+.top-nav ul {
+    display: flex;
+    gap: 34px;
+    list-style-type: none;
+    margin-left: 6.7%;
+    margin-top: 12px;
+    padding: 0;
+    text-align: left;
+}
+
+.top-nav li {
+    display: inline;
+}
+
+.top-nav a {
+    display: inline-block;
+    font-family: 'DM Sans';
+    color: #fff;
+
+    text-transform: capitalize;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+#logo {
+    background-image: url("./public/logo.svg");
+    background-size: contain;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    background: url("./public/Dcover.svg");
+    background-size: cover;
+    z-index: 1001;
+    position: relative;
+    background-position: center;
+}
+
+#dSwipe {
+    background: url("./public/swipe.gif");
+    background-position: center;
+    background-size: 5%;
+    position: relative;
+    /* transform: rotate(90deg); */
+    background-repeat: no-repeat;
+    top: 40%;
+}
+
+.first {
+    background-image: url('./public/Back/Bg1.svg');
+    background-color: #352b5f;
+}
+
+.first div div {
+    background: url('public/Objects/Ob1.svg') 50% 50% fixed;
+}
+
+.second {
+    background-image: url("public/Back/Bg2.svg");
+    background-color: #e5e3f1;
+}
+
+.second div div {
+    background: url('public/Objects/Ob2.svg') 50% 50% fixed;
+}
+
+.third {
+    background-image: url('public/Back/Bg3.svg');
+    background-color: #eae5f1;
+}
+
+.third div div {
+    background: url('public/Objects/Ob3.svg') 50% 50% fixed;
+}
+
+.fourth {
+    background-image: url("public/Back/Bg4.svg");
+    background-color: #ffd2c5;
+}
+
+.fourth div div {
+    background: url('public/Objects/Ob4.svg') 50% 50% fixed;
+}
+
+.fifth {
+    background-image: url("public/Back/Bg5.svg");
+    background-color: #ffd2c5;
+}
+
+.fifth div div {
+    background: url('public/Objects/Ob5.svg') 50% 50% fixed;
+}
+
+.sixth {
+    background-image: url("public/Back/Bg6.svg");
+    background-color: #ffd2c5;
+}
+
+.sixth div div {
+    background: url('public/Objects/Ob6.svg') 50% 50% fixed;
+}
+
+.seventh {
+    background-image: url("public/Back/Bg7.svg");
+    background-color: #ffd2c5;
+}
+
+.seventh div div {
+    background: url('public/Objects/Ob7.svg') 50% 50% fixed;
+}
+
+.eight {
+    background-image: url("public/Back/Bg8.svg");
+    background-color: #ffd2c5;
+}
+
+.eight div div {
+    background: url('public/Objects/Ob8.svg') 50% 50% fixed;
+}
+
+.ninth {
+    background-image: url("public/Back/Bg9.svg");
+    background-color: #ffd2c5;
+}
+
+.ninth div div {
+    background: url('public/Objects/Ob9.svg') 50% 50% fixed;
+}
+
+.tenth {
+    background-image: url("public/Back/Bg10.svg");
+    background-color: #ffd2c5;
+}
+
+.tenth div div {
+    background: url('public/Objects/Ob10.svg') 50% 50% fixed;
+}
+
+.eleventh {
+    background-image: url("public/Back/Bg11.svg");
+    background-color: #ffd2c5;
+}
+
+.eleventh div div {
+    background: url('public/Objects/Ob11.svg') 50% 50% fixed;
+}
+
+.twelfth {
+    background-image: url("public/Back/Bg12.svg");
+    background-color: #ffd2c5;
+}
+
+.twelfth div div {
+    background: url('public/Objects/Ob12.svg') 50% 50% fixed;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eight,
+.ninth,
+.tenth,
+.eleventh,
+.twelfth {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.first div div,
+.second div div,
+.third div div,
+.fourth div div,
+.fifth div div,
+.sixth div div,
+.seventh div div,
+.eight div div,
+.ninth div div,
+.tenth div div,
+.eleventh div div,
+.twelfth div div {
+    background-position: center;
+    height: 120%;
+    background-size: 80%;
+    background-position-x: initial;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+    color: black;
+    background-attachment: fixed;
+}
+
+.story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 100%;
+}
+
+.side-nav {
+    position: fixed;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-nav ul li {
+    margin-bottom: 20px;
+    height: 15px;
+}
+
+.side-nav ul li a {
+    display: block;
+    background: #AD7B10 0% 0% no-repeat padding-box;
+    height: 12px;
+    width: 12px;
+    opacity: 0.5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.side-nav ul li a p {
+    color: #AD7B10;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    position: relative;
+    /* top: -14px; */
+    text-align: end;
+    width: 122px;
+    height: 29px;
+    left: -91px;
+}
+
+.side-nav ul li a p {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* Adjust the timing as needed */
+    transform: translateX(0);
+    /* Adjust the distance as needed */
+    opacity: 0;
+}
+
+.side-nav ul li a:hover p {
+    transform: translateX(-45px);
+    opacity: 1;
+}
+
+
+.side-nav ul li a:hover {
+    opacity: 1 !important;
+}
+
+/* active class */
+.side-nav ul li a.active {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+.mobile {
+    display: none;
+}
+
+.m-story {
+    /* display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%; */
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 100%;
+}
+
+/*  Mobile view Title   */
+
+.first div #title {
+    background-image: url("./public/SpObjects/Tit1.svg");
+}
+.second div #title {
+    background-image: url("./public/SpObjects/Tit2.svg");
+}
+.third div #title {
+    background-image: url("./public/SpObjects/Tit3.svg");
+}
+.fourth div #title {
+    background-image: url("./public/SpObjects/Tit4.svg");
+}
+.fifth div #title {
+    background-image: url("./public/SpObjects/Tit5.svg");
+}
+.sixth div #title {
+    background-image: url("./public/SpObjects/Tit6.svg");
+}
+.seventh div #title {
+    background-image: url("./public/SpObjects/Tit7.svg");
+}
+.eight div #title {
+    background-image: url("./public/SpObjects/Tit8.svg");
+}
+.ninth div #title {
+    background-image: url("./public/SpObjects/Tit9.svg");
+}
+.tenth div #title {
+    background-image: url("./public/SpObjects/Tit10.svg");
+}
+.eleventh div #title {
+    background-image: url("./public/SpObjects/Tit11.svg");
+}
+.twelfth div #title {
+    background-image: url("./public/SpObjects/Tit12.svg");
+}
+
+.first div #title,
+.second div #title,
+.third div #title,
+.fourth div #title,
+.fifth div #title,
+.sixth div #title,
+.seventh div #title,
+.eight div #title,
+.ninth div #title,
+.tenth div #title,
+.eleventh div #title,
+.twelfth div #title {
+    background-size: auto 10%;
+    background-position-x: initial;
+    background-position-y: 11%;
+    background-repeat: no-repeat;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+    color: black;
+    background-attachment: fixed;
+}
+
+/*  Mobile view Img   */
+
+.first div #img {
+    background-image: url("./public/SpObjects/Img1.svg");
+}
+.second div #img {
+    background-image: url("./public/SpObjects/Img2.svg");
+}
+.third div #img {
+    background-image: url("./public/SpObjects/Img3.svg");
+}
+.fourth div #img {
+    background-image: url("./public/SpObjects/Img4.svg");
+}
+.fifth div #img {
+    background-image: url("./public/SpObjects/Img5.svg");
+}
+.sixth div #img {
+    background-image: url("./public/SpObjects/Img6.svg");
+}
+.seventh div #img {
+    background-image: url("./public/SpObjects/Img7.svg");
+}
+.eight div #img {
+    background-image: url("./public/SpObjects/Img8.svg");
+}
+.ninth div #img {
+    background-image: url("./public/SpObjects/Img9.svg");
+}
+.tenth div #img {
+    background-image: url("./public/SpObjects/Img10.svg");
+}
+.eleventh div #img {
+    background-image: url("./public/SpObjects/Img11.svg");
+}
+.twelfth div #img {
+    background-image: url("./public/SpObjects/Img12.svg");
+}
+
+.first div #img,
+.second div #img,
+.third div #img,
+.fourth div #img,
+.fifth div #img,
+.sixth div #img,
+.seventh div #img,
+.eight div #img,
+.ninth div #img,
+.tenth div #img,
+.eleventh div #img,
+.twelfth div #img {
+    background-position: center;
+    background-size: 80%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+    color: black;
+    background-attachment: fixed;
+}
+
+/*  Mobile view Num   */
+
+.first div #num {
+    background-image: url("./public/SpObjects/Num1.svg");
+}
+.second div #num {
+    background-image: url("./public/SpObjects/Num2.svg");
+}
+.third div #num {
+    background-image: url("./public/SpObjects/Num3.svg");
+}
+.fourth div #num {
+    background-image: url("./public/SpObjects/Num4.svg");
+}
+.fifth div #num {
+    background-image: url("./public/SpObjects/Num5.svg");
+}
+.sixth div #num {
+    background-image: url("./public/SpObjects/Num6.svg");
+}
+.seventh div #num {
+    background-image: url("./public/SpObjects/Num7.svg");
+}
+.eight div #num {
+    background-image: url("./public/SpObjects/Num8.svg");
+}
+.ninth div #num {
+    background-image: url("./public/SpObjects/Num9.svg");
+}
+.tenth div #num {
+    background-image: url("./public/SpObjects/Num10.svg");
+}
+.eleventh div #num {
+    background-image: url("./public/SpObjects/Num11.svg");
+}
+.twelfth div #num {
+    background-image: url("./public/SpObjects/Num12.svg");
+}
+
+.first div #num,
+.second div #num,
+.third div #num,
+.fourth div #num,
+.fifth div #num,
+.sixth div #num,
+.seventh div #num,
+.eight div #num,
+.ninth div #num,
+.tenth div #num,
+.eleventh div #num,
+.twelfth div #num {
+    background-position: center;
+    background-size: 30%;
+    background-position-x: 15%;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    padding: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 10;
+    color: black;
+    background-attachment: fixed;
+}
+
+/*   Mobile View Paragraph   */
+
+#paraContainer {    
+    background-attachment: fixed !important;
+    background-position: center !important;
+    /* background-size: 85% 20% !important;
+    overflow: auto;
+    background-position-y: 85% !important;    */    
+    background-size: 80% 30% !important;
+    background-position-y: 95% !important;
+    background-repeat: no-repeat !important;
+}
+
+.first div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt1.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt1.svg");
+}
+
+.second div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt2.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt2.svg");
+}
+
+.third div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt3.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt3.svg");
+}
+
+.fourth div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt4.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt4.svg");
+}
+
+.fifth div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt5.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt5.svg");
+}
+
+.sixth div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt6.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt6.svg");
+}
+
+.seventh div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt7.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt7.svg");
+}
+
+.eight div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt8.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt8.svg");
+}
+
+.ninth div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt9.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt9.svg");
+}
+
+.tenth div #paraContainer{
+    /* background: url("./public/SpObjects/DesktopTxt/Txt10.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt10.svg");
+}
+
+.eleventh div #paraContainer {
+    /* background: url("./public/SpObjects/DesktopTxt/Txt11.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt11.svg");
+}
+
+.twelfth div #paraContainer {
+    /* background: url("./public/SpObjects/DesktopTxt/Txt12.svg"); */
+    background: url("./public/SpObjects/MobileTxt/Mtxt12.svg");
+}
+
+
+@media screen and (max-width: 450px) {
+
+    #logo {
+        background-image: url("./public/logo.svg");
+        background-size: contain;
+        width: 45px;
+        background-repeat: no-repeat;
+    }
+
+    .welcome {
+        background: url("./public/Pcover.svg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .first .story div,
+    .second .story div,
+    .third .story div,
+    .fourth .story div,
+    .fifth .story div,
+    .sixth .story div,
+    .seventh .story div,
+    .eight .story div,
+    .ninth .story div,
+    .tenth .story div,
+    .eleventh .story div {
+        display: none;
+    }
+}
+
+/* @media screen and (max-width: 430px) {
+    .first {
+        background-image: url('./public/PhoneBack/PhB1.svg');
+    }
+
+    .first div div {
+        background: url('public/PhoneObjects/POb1.svg') 50% 50% fixed;
+    }
+
+    .second {
+        background-image: url("./public/PhoneBack/PhB2.svg");
+    }
+
+    .second div div {
+        background: url('public/PhoneObjects/POb2.svg') 50% 50% fixed;
+    }
+
+    .third {
+        background-image: url('./public/PhoneBack/PhB3.svg');
+    }
+
+    .third div div {
+        background: url('public/PhoneObjects/POb3.svg') 50% 50% fixed;
+    }
+
+    .fourth {
+        background-image: url("./public/PhoneBack/PhB4.svg");
+    }
+
+    .fourth div div {
+        background: url('public/PhoneObjects/POb4.svg') 50% 50% fixed;
+    }
+
+    .fifth {
+        background-image: url("./public/PhoneBack/PhB5.svg");
+    }
+
+    .fifth div div {
+        background: url('public/PhoneObjects/POb5.svg') 50% 50% fixed;
+    }
+
+    .sixth {
+        background-image: url("./public/PhoneBack/PhB6.svg");
+    }
+
+    .sixth div div {
+        background: url('public/PhoneObjects/POb6.svg') 50% 50% fixed;
+    }
+
+    .seventh {
+        background-image: url("./public/PhoneBack/PhB7.svg");
+    }
+
+    .seventh div div {
+        background: url('public/PhoneObjects/POb7.svg') 50% 50% fixed;
+    }
+
+    .eight {
+        background-image: url("./public/PhoneBack/PhB8.svg");
+    }
+
+    .eight div div {
+        background: url('public/PhoneObjects/POb8.svg') 50% 50% fixed;
+    }
+
+    .ninth {
+        background-image: url("./public/PhoneBack/PhB9.svg");
+    }
+
+    .ninth div div {
+        background: url('public/PhoneObjects/POb9.svg') 50% 50% fixed;
+    }
+
+    .tenth {
+        background-image: url("./public/PhoneBack/PhB10.svg");
+    }
+
+    .tenth div div {
+        background: url('public/PhoneObjects/POb10.svg') 50% 50% fixed;
+    }
+
+    .eleventh {
+        background-image: url("./public/PhoneBack/PhB11.svg");
+    }
+
+    .eleventh div div {
+        background: url('public/PhoneObjects/POb11.svg') 50% 50% fixed;
+    }
+
+    .first div div,
+    .second div div,
+    .third div div,
+    .fourth div div,
+    .fifth div div,
+    .sixth div div,
+    .seventh div div,
+    .eight div div,
+    .ninth div div,
+    .tenth div div,
+    .eleventh div div {
+        background-position: center;
+        height: 120%;
+        background-size: contain;
+        background-position-x: left;
+        background-position-y: 80%;
+        background-repeat: no-repeat;
+        padding: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 10;
+        color: black;
+        background-attachment: fixed;
+    }
+
+    .side-nav {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 360px) {
+    .first {
+        background-image: url('./public/PhoneBack/PhB1.svg');
+    }
+
+    .first div div {
+        background: url('public/PhoneObjects/POb1.svg') 50% 50% fixed;
+    }
+
+    .second {
+        background-image: url("./public/PhoneBack/PhB2.svg");
+    }
+
+    .second div div {
+        background: url('public/PhoneObjects/POb2.svg') 50% 50% fixed;
+    }
+
+    .third {
+        background-image: url('./public/PhoneBack/PhB3.svg');
+    }
+
+    .third div div {
+        background: url('public/PhoneObjects/POb3.svg') 50% 50% fixed;
+    }
+
+    .fourth {
+        background-image: url("./public/PhoneBack/PhB4.svg");
+    }
+
+    .fourth div div {
+        background: url('public/PhoneObjects/POb4.svg') 50% 50% fixed;
+    }
+
+    .fifth {
+        background-image: url("./public/PhoneBack/PhB5.svg");
+    }
+
+    .fifth div div {
+        background: url('public/PhoneObjects/POb5.svg') 50% 50% fixed;
+    }
+
+    .sixth {
+        background-image: url("./public/PhoneBack/PhB6.svg");
+    }
+
+    .sixth div div {
+        background: url('public/PhoneObjects/POb6.svg') 50% 50% fixed;
+    }
+
+    .seventh {
+        background-image: url("./public/PhoneBack/PhB7.svg");
+    }
+
+    .seventh div div {
+        background: url('public/PhoneObjects/POb7.svg') 50% 50% fixed;
+    }
+
+    .eight {
+        background-image: url("./public/PhoneBack/PhB8.svg");
+    }
+
+    .eight div div {
+        background: url('public/PhoneObjects/POb8.svg') 50% 50% fixed;
+    }
+
+    .ninth {
+        background-image: url("./public/PhoneBack/PhB9.svg");
+    }
+
+    .ninth div div {
+        background: url('public/PhoneObjects/POb9.svg') 50% 50% fixed;
+    }
+
+    .tenth {
+        background-image: url("./public/PhoneBack/PhB10.svg");
+    }
+
+    .tenth div div {
+        background: url('public/PhoneObjects/POb10.svg') 50% 50% fixed;
+    }
+
+    .eleventh {
+        background-image: url("./public/PhoneBack/PhB11.svg");
+    }
+
+    .eleventh div div {
+        background: url('public/PhoneObjects/POb11.svg') 50% 50% fixed;
+    }
+
+    .first div div,
+    .second div div,
+    .third div div,
+    .fourth div div,
+    .fifth div div,
+    .sixth div div,
+    .seventh div div,
+    .eight div div,
+    .ninth div div,
+    .tenth div div,
+    .eleventh div div {
+        background-position: center;
+        height: 120%;
+        background-size: contain;
+        background-position-x: left;
+        background-position-y: 80%;
+        background-repeat: no-repeat;
+        padding: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 10;
+        color: black;
+        background-attachment: fixed;
+    }
+
+    .top-nav ul {
+        margin-top: 0;
+    } 
+
+    .side-nav {
+        display: none;
+    }
+
+
+} */
