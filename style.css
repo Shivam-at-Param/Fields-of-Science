@@ -531,7 +531,7 @@ html {
 
 .first div #paraContainer{
     /* background: url("./public/DesktopTxt/Txt1.svg"); */
-    background: url("/MobileTxt/Mtxt1.svg");
+    background: url("./public/SpObjects/Mtxt1.svg");
 }
 
 .second div #paraContainer{
