@@ -531,12 +531,12 @@ html {
 
 .first div #paraContainer{
     /* background: url("./public/DesktopTxt/Txt1.svg"); */
-    background: url("./public/MobileTxt/Mtxt1.svg");
+    background: url("/MobileTxt/Mtxt1.svg");
 }
 
 .second div #paraContainer{
     /* background: url("./public/DesktopTxt/Txt2.svg"); */
-    background: url("./public/MobileTxt/Mtxt2.svg");
+    background: url("/MobileTxt/Mtxt2.svg");
 }
 
 .third div #paraContainer{
