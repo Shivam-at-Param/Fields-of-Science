@@ -5,5 +5,5 @@
       <stop offset="1" stop-color="#f1b66d"/>
     </linearGradient>
   </defs>
-  <rect id="Bg2" width="1920" height="960" fill="url(#linear-gradient)"/>
+  <path id="Bg2" d="M0,0H1920V960H0Z" fill="url(#linear-gradient)"/>
 </svg>

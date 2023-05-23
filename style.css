@@ -75,6 +75,10 @@ html {
     top: 40%;
 }
 
+.container {
+    height: 100vh;
+}
+
 .first {
     background-image: url('./public/Back/Bg1.svg');
     background-color: #352b5f;
