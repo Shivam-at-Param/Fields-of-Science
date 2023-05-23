@@ -403,7 +403,7 @@ html {
 .eleventh,
 .twelfth {
     display: flex;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -593,14 +593,17 @@ html {
 
 .mobile .container .thirteenth {
     background-image: url("./public/MBack/PBg13.svg");
+    background-size: cover !important
 }
 
 .mobile .container .fourtheenth {
     background-image: url("./public/MBack/PBg14.svg");
+    background-size: cover !important
 }
 
 .mobile .container .fifteenth {
     background-image: url("./public/MBack/PBg15.svg");
+    background-size: cover !important
 }
 
 /*  Mobile view Title   */
