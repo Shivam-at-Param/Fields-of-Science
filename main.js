@@ -4,7 +4,7 @@ let sideNav = document.querySelector('.side-nav ul li a');
 var navLinks = document.querySelectorAll('.side-nav ul li a');
 var desktop = document.getElementsByClassName("desktop")[0];
 var mobile = document.getElementsByClassName("mobile")[0];
-let navColors = ["#AD7B10", "#AD7B10", "#4E6D6E", "#4E5F33", "#7D2B05", "#6F2700", "#012443", "#B1CC81", "#981F0E", "#233730", "#74B3BC", "#CD8D5D"];
+let navColors = ["#AD7B10", "#AD7B10", "#4E6D6E", "#4E5F33", "#7D2B05", "#6F2700", "#012443", "#B1CC81", "#981F0E", "#233730", "#74B3BC", "#CD8D5D", "#F74521", "#643C25", "#A5A885"];
 
 
 if (screenWidth > 450) {

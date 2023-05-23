@@ -80,8 +80,20 @@ html {
     background-color: #352b5f;
 }
 
-.first div div {
-    background: url('public/Objects/Ob1.svg') 50% 50% fixed;
+.first .story #title {
+    background: url('public/SpObjects/Tit1.svg');
+}
+
+.first .story #img {
+    background: url('public/SpObjects/Img1.svg');
+}
+
+.first .story #num {
+    background: url('public/SpObjects/Num1.svg');
+}
+
+.first .story #paraContainer {
+    background: url('public/SpObjects/Dtxt1.svg');
 }
 
 .second {
@@ -89,8 +101,20 @@ html {
     background-color: #e5e3f1;
 }
 
-.second div div {
-    background: url('public/Objects/Ob2.svg') 50% 50% fixed;
+.second .story #title {
+    background: url('public/SpObjects/Tit2.svg');
+}
+
+.second .story #img {
+    background: url('public/SpObjects/Img2.svg');
+}
+
+.second .story #num {
+    background: url('public/SpObjects/Num2.svg');
+}
+
+.second .story #paraContainer {
+    background: url('public/SpObjects/Dtxt2.svg');
 }
 
 .third {
@@ -98,8 +122,20 @@ html {
     background-color: #eae5f1;
 }
 
-.third div div {
-    background: url('public/Objects/Ob3.svg') 50% 50% fixed;
+.third .story #title {
+    background: url('public/SpObjects/Tit3.svg');
+}
+
+.third .story #img {
+    background: url('public/SpObjects/Img3.svg');
+}
+
+.third .story #num {
+    background: url('public/SpObjects/Num3.svg');
+}
+
+.third .story #paraContainer {
+    background: url('public/SpObjects/Dtxt3.svg');
 }
 
 .fourth {
@@ -107,8 +143,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.fourth div div {
-    background: url('public/Objects/Ob4.svg') 50% 50% fixed;
+.fourth .story #title {
+    background: url('public/SpObjects/Tit4.svg');
+}
+
+.fourth .story #img {
+    background: url('public/SpObjects/Img4.svg');
+}
+
+.fourth .story #num {
+    background: url('public/SpObjects/Num4.svg');
+}
+
+.fourth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt4.svg');
 }
 
 .fifth {
@@ -116,8 +164,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.fifth div div {
-    background: url('public/Objects/Ob5.svg') 50% 50% fixed;
+.fifth .story #title {
+    background: url('public/SpObjects/Tit5.svg');
+}
+
+.fifth .story #img {
+    background: url('public/SpObjects/Img5.svg');
+}
+
+.fifth .story #num {
+    background: url('public/SpObjects/Num5.svg');
+}
+
+.fifth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt5.svg');
 }
 
 .sixth {
@@ -125,8 +185,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.sixth div div {
-    background: url('public/Objects/Ob6.svg') 50% 50% fixed;
+.sixth .story #title {
+    background: url('public/SpObjects/Tit6.svg');
+}
+
+.sixth .story #img {
+    background: url('public/SpObjects/Img6.svg');
+}
+
+.sixth .story #num {
+    background: url('public/SpObjects/Num6.svg');
+}
+
+.sixth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt6.svg');
 }
 
 .seventh {
@@ -134,8 +206,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.seventh div div {
-    background: url('public/Objects/Ob7.svg') 50% 50% fixed;
+.seventh .story #title {
+    background: url('public/SpObjects/Tit7.svg');
+}
+
+.seventh .story #img {
+    background: url('public/SpObjects/Img7.svg');
+}
+
+.seventh .story #num {
+    background: url('public/SpObjects/Num7.svg');
+}
+
+.seventh .story #paraContainer {
+    background: url('public/SpObjects/Dtxt7.svg');
 }
 
 .eight {
@@ -143,8 +227,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.eight div div {
-    background: url('public/Objects/Ob8.svg') 50% 50% fixed;
+.eight .story #title {
+    background: url('public/SpObjects/Tit8.svg');
+}
+
+.eight .story #img {
+    background: url('public/SpObjects/Img8.svg');
+}
+
+.eight .story #num {
+    background: url('public/SpObjects/Num8.svg');
+}
+
+.eight .story #paraContainer {
+    background: url('public/SpObjects/Dtxt8.svg');
 }
 
 .ninth {
@@ -152,8 +248,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.ninth div div {
-    background: url('public/Objects/Ob9.svg') 50% 50% fixed;
+.ninth .story #title {
+    background: url('public/SpObjects/Tit9.svg');
+}
+
+.ninth .story #img {
+    background: url('public/SpObjects/Img9.svg');
+}
+
+.ninth .story #num {
+    background: url('public/SpObjects/Num9.svg');
+}
+
+.ninth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt9.svg');
 }
 
 .tenth {
@@ -161,8 +269,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.tenth div div {
-    background: url('public/Objects/Ob10.svg') 50% 50% fixed;
+.tenth .story #title {
+    background: url('public/SpObjects/Tit10.svg');
+}
+
+.tenth .story #img {
+    background: url('public/SpObjects/Img10.svg');
+}
+
+.tenth .story #num {
+    background: url('public/SpObjects/Num10.svg');
+}
+
+.tenth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt10.svg');
 }
 
 .eleventh {
@@ -170,8 +290,20 @@ html {
     background-color: #ffd2c5;
 }
 
-.eleventh div div {
-    background: url('public/Objects/Ob11.svg') 50% 50% fixed;
+.eleventh .story #title {
+    background: url('public/SpObjects/Tit11.svg');
+}
+
+.eleventh .story #img {
+    background: url('public/SpObjects/Img11.svg');
+}
+
+.eleventh .story #num {
+    background: url('public/SpObjects/Num11.svg');
+}
+
+.eleventh .story #paraContainer {
+    background: url('public/SpObjects/Dtxt11.svg');
 }
 
 .twelfth {
@@ -179,8 +311,83 @@ html {
     background-color: #ffd2c5;
 }
 
-.twelfth div div {
-    background: url('public/Objects/Ob12.svg') 50% 50% fixed;
+.twelfth .story #title {
+    background: url('public/SpObjects/Tit12.svg');
+}
+
+.twelfth .story #img {
+    background: url('public/SpObjects/Img12.svg');
+}
+
+.twelfth .story #num {
+    background: url('public/SpObjects/Num12.svg');
+}
+
+.twelfth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt12.svg');
+}
+
+.thirteenth {
+    background-image: url("public/Back/Bg13.svg");
+    background-color: #ffd2c5;
+}
+
+.thirteenth .story #title {
+    background: url('public/SpObjects/Tit13.svg');
+}
+
+.thirteenth .story #img {
+    background: url('public/SpObjects/Img13.svg');
+}
+
+.thirteenth .story #num {
+    background: url('public/SpObjects/Num13.svg');
+}
+
+.thirteenth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt13.svg');
+}
+
+.fourtheenth {
+    background-image: url("public/Back/Bg14.svg");
+    background-color: #ffd2c5;
+}
+
+.fourtheenth .story #title {
+    background: url('public/SpObjects/Tit14.svg');
+}
+
+.fourtheenth .story #img {
+    background: url('public/SpObjects/Img14.svg');
+}
+
+.fourtheenth .story #num {
+    background: url('public/SpObjects/Num14.svg');
+}
+
+.fourtheenth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt14.svg');
+}
+
+.fifteenth {
+    background-image: url("public/Back/Bg15.svg");
+    background-color: #ffd2c5;
+}
+
+.fifteenth .story #title {
+    background: url('public/SpObjects/Tit15.svg');
+}
+
+.fifteenth .story #img {
+    background: url('public/SpObjects/Img15.svg');
+}
+
+.fifteenth .story #num {
+    background: url('public/SpObjects/Num15.svg');
+}
+
+.fifteenth .story #paraContainer {
+    background: url('public/SpObjects/Dtxt15.svg');
 }
 
 .first,
@@ -205,37 +412,49 @@ html {
     z-index: 2;
 }
 
-.first div div,
-.second div div,
-.third div div,
-.fourth div div,
-.fifth div div,
-.sixth div div,
-.seventh div div,
-.eight div div,
-.ninth div div,
-.tenth div div,
-.eleventh div div,
-.twelfth div div {
-    background-position: center;
-    height: 120%;
-    background-size: 80%;
-    background-position-x: initial;
-    background-position-y: 60%;
-    background-repeat: no-repeat;
-    padding: 0;
-    position: absolute;
-    width: inherit;
-    z-index: 10;
-    color: black;
-    background-attachment: fixed;
-}
-
 .story {
     margin: 0 auto;
     min-width: 980px;
-    overflow: auto;
     width: 100%;
+    position: relative;
+}
+
+.story #title {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: auto 20% !important;
+    background-position-y: 76% !important;
+}
+
+.story #img {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: 32% !important;
+    background-position: 73.2% 68% !important;
+}
+
+.story #num {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: 10% !important;
+    background-position: 50.2% 74% !important;
+}
+
+.story #paraContainer {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: 35% !important;
+    background-position: 11% 33% !important;
+    z-index: 1;
+}
+
+.story div {
+    position: absolute;
+    width: inherit;
+}
+
+.eleventh .story #num {
+    background-size: 9% !important;
 }
 
 .side-nav {
@@ -326,57 +545,69 @@ html {
     width: 100%;
 }
 
-/*  Mobile view Title   */
+/******************************************  Mobile view Title   ******************************************/
 
-.first div #title {
+.first .m-story #title {
     background-image: url("./public/SpObjects/Tit1.svg");
 }
-.second div #title {
+.second .m-story #title {
     background-image: url("./public/SpObjects/Tit2.svg");
 }
-.third div #title {
+.third .m-story #title {
     background-image: url("./public/SpObjects/Tit3.svg");
 }
-.fourth div #title {
+.fourth .m-story #title {
     background-image: url("./public/SpObjects/Tit4.svg");
 }
-.fifth div #title {
+.fifth .m-story #title {
     background-image: url("./public/SpObjects/Tit5.svg");
 }
-.sixth div #title {
+.sixth .m-story #title {
     background-image: url("./public/SpObjects/Tit6.svg");
 }
-.seventh div #title {
+.seventh .m-story #title {
     background-image: url("./public/SpObjects/Tit7.svg");
 }
-.eight div #title {
+.eight .m-story #title {
     background-image: url("./public/SpObjects/Tit8.svg");
 }
-.ninth div #title {
+.ninth .m-story #title {
     background-image: url("./public/SpObjects/Tit9.svg");
 }
-.tenth div #title {
+.tenth .m-story #title {
     background-image: url("./public/SpObjects/Tit10.svg");
 }
-.eleventh div #title {
+.eleventh .m-story #title {
     background-image: url("./public/SpObjects/Tit11.svg");
 }
-.twelfth div #title {
+.twelfth .m-story #title {
     background-image: url("./public/SpObjects/Tit12.svg");
 }
+.thirteenth .m-story #title {
+    background-image: url("./public/SpObjects/Tit13.svg");
+}
+.fourtheenth .m-story #title {
+    background-image: url("./public/SpObjects/Tit14.svg");
+}
+.fifteenth .m-story #title {
+    background-image: url("./public/SpObjects/Tit15.svg");
+}
 
-.first div #title,
-.second div #title,
-.third div #title,
-.fourth div #title,
-.fifth div #title,
-.sixth div #title,
-.seventh div #title,
-.eight div #title,
-.ninth div #title,
-.tenth div #title,
-.eleventh div #title,
-.twelfth div #title {
+.first .m-story #title,
+.second .m-story #title,
+.third .m-story #title,
+.fourth .m-story #title,
+.fifth .m-story #title,
+.sixth .m-story #title,
+.seventh .m-story #title,
+.eight .m-story #title,
+.ninth .m-story #title,
+.tenth .m-story #title,
+.eleventh .m-story #title,
+.twelfth .m-story #title,
+.thirteenth .m-story #title,
+.fourtheenth .m-story #title,
+.fifteenth .m-story #title {
     background-size: auto 10%;
     background-position-x: initial;
     background-position-y: 11%;
@@ -391,55 +622,67 @@ html {
 
 /*  Mobile view Img   */
 
-.first div #img {
+.first .m-story #img {
     background-image: url("./public/SpObjects/Img1.svg");
 }
-.second div #img {
+.second .m-story #img {
     background-image: url("./public/SpObjects/Img2.svg");
 }
-.third div #img {
+.third .m-story #img {
     background-image: url("./public/SpObjects/Img3.svg");
 }
-.fourth div #img {
+.fourth .m-story #img {
     background-image: url("./public/SpObjects/Img4.svg");
 }
-.fifth div #img {
+.fifth .m-story #img {
     background-image: url("./public/SpObjects/Img5.svg");
 }
-.sixth div #img {
+.sixth .m-story #img {
     background-image: url("./public/SpObjects/Img6.svg");
 }
-.seventh div #img {
+.seventh .m-story #img {
     background-image: url("./public/SpObjects/Img7.svg");
 }
-.eight div #img {
+.eight .m-story #img {
     background-image: url("./public/SpObjects/Img8.svg");
 }
-.ninth div #img {
+.ninth .m-story #img {
     background-image: url("./public/SpObjects/Img9.svg");
 }
-.tenth div #img {
+.tenth .m-story #img {
     background-image: url("./public/SpObjects/Img10.svg");
 }
-.eleventh div #img {
+.eleventh .m-story #img {
     background-image: url("./public/SpObjects/Img11.svg");
 }
-.twelfth div #img {
+.twelfth .m-story #img {
     background-image: url("./public/SpObjects/Img12.svg");
 }
+.thirteenth .m-story #img {
+    background-image: url("./public/SpObjects/Img13.svg");
+}
+.fourtheenth .m-story #img {
+    background-image: url("./public/SpObjects/Img14.svg");
+}
+.fifteenth .m-story #img {
+    background-image: url("./public/SpObjects/Img15.svg");
+}
 
-.first div #img,
-.second div #img,
-.third div #img,
-.fourth div #img,
-.fifth div #img,
-.sixth div #img,
-.seventh div #img,
-.eight div #img,
-.ninth div #img,
-.tenth div #img,
-.eleventh div #img,
-.twelfth div #img {
+.first .m-story #img,
+.second .m-story #img,
+.third .m-story #img,
+.fourth .m-story #img,
+.fifth .m-story #img,
+.sixth .m-story #img,
+.seventh .m-story #img,
+.eight .m-story #img,
+.ninth .m-story #img,
+.tenth .m-story #img,
+.eleventh .m-story #img,
+.twelfth .m-story #img,
+.thirteenth .m-story #img,
+.fourtheenth .m-story #img,
+.fifteenth .m-story #img {
     background-position: center;
     background-size: 80%;
     background-position-y: 40%;
@@ -454,55 +697,67 @@ html {
 
 /*  Mobile view Num   */
 
-.first div #num {
+.first .m-story #num {
     background-image: url("./public/SpObjects/Num1.svg");
 }
-.second div #num {
+.second .m-story #num {
     background-image: url("./public/SpObjects/Num2.svg");
 }
-.third div #num {
+.third .m-story #num {
     background-image: url("./public/SpObjects/Num3.svg");
 }
-.fourth div #num {
+.fourth .m-story #num {
     background-image: url("./public/SpObjects/Num4.svg");
 }
-.fifth div #num {
+.fifth .m-story #num {
     background-image: url("./public/SpObjects/Num5.svg");
 }
-.sixth div #num {
+.sixth .m-story #num {
     background-image: url("./public/SpObjects/Num6.svg");
 }
-.seventh div #num {
+.seventh .m-story #num {
     background-image: url("./public/SpObjects/Num7.svg");
 }
-.eight div #num {
+.eight .m-story #num {
     background-image: url("./public/SpObjects/Num8.svg");
 }
-.ninth div #num {
+.ninth .m-story #num {
     background-image: url("./public/SpObjects/Num9.svg");
 }
-.tenth div #num {
+.tenth .m-story #num {
     background-image: url("./public/SpObjects/Num10.svg");
 }
-.eleventh div #num {
+.eleventh .m-story #num {
     background-image: url("./public/SpObjects/Num11.svg");
 }
-.twelfth div #num {
+.twelfth .m-story #num {
     background-image: url("./public/SpObjects/Num12.svg");
 }
+.thirteenth .m-story #num {
+    background-image: url("./public/SpObjects/Num13.svg");
+}
+.fourtheenth .m-story #num {
+    background-image: url("./public/SpObjects/Num14.svg");
+}
+.fifteenth .m-story #num {
+    background-image: url("./public/SpObjects/Num15.svg");
+}
 
-.first div #num,
-.second div #num,
-.third div #num,
-.fourth div #num,
-.fifth div #num,
-.sixth div #num,
-.seventh div #num,
-.eight div #num,
-.ninth div #num,
-.tenth div #num,
-.eleventh div #num,
-.twelfth div #num {
+.first .m-story #num,
+.second .m-story #num,
+.third .m-story #num,
+.fourth .m-story #num,
+.fifth .m-story #num,
+.sixth .m-story #num,
+.seventh .m-story #num,
+.eight .m-story #num,
+.ninth .m-story #num,
+.tenth .m-story #num,
+.eleventh .m-story #num,
+.twelfth .m-story #num,
+.thirteenth .m-story #num,
+.fourtheenth .m-story #num,
+.fifteenth .m-story #num {
     background-position: center;
     background-size: 30%;
     background-position-x: 15%;
@@ -529,64 +784,76 @@ html {
     background-repeat: no-repeat !important;
 }
 
-.first div #paraContainer{
+.first .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt1.svg"); */
-    background: url("./public/MobileTxt/Mtxt1.svg");
+    background: url("./public/SpObjects/Mtxt1.svg");
 }
 
-.second div #paraContainer{
+.second .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt2.svg"); */
-    background: url("./public/MobileTxt/Mtxt2.svg");
+    background: url("./public/SpObjects/Mtxt2.svg");
 }
 
-.third div #paraContainer{
+.third .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt3.svg"); */
-    background: url("./public/MobileTxt/Mtxt3.svg");
+    background: url("./public/SpObjects/Mtxt3.svg");
 }
 
-.fourth div #paraContainer{
+.fourth .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt4.svg"); */
-    background: url("./public/MobileTxt/Mtxt4.svg");
+    background: url("./public/SpObjects/Mtxt4.svg");
 }
 
-.fifth div #paraContainer{
+.fifth .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt5.svg"); */
-    background: url("./public/MobileTxt/Mtxt5.svg");
+    background: url("./public/SpObjects/Mtxt5.svg");
 }
 
-.sixth div #paraContainer{
+.sixth .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt6.svg"); */
-    background: url("./public/MobileTxt/Mtxt6.svg");
+    background: url("./public/SpObjects/Mtxt6.svg");
 }
 
-.seventh div #paraContainer{
+.seventh .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt7.svg"); */
-    background: url("./public/MobileTxt/Mtxt7.svg");
+    background: url("./public/SpObjects/Mtxt7.svg");
 }
 
-.eight div #paraContainer{
+.eight .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt8.svg"); */
-    background: url("./public/MobileTxt/Mtxt8.svg");
+    background: url("./public/SpObjects/Mtxt8.svg");
 }
 
-.ninth div #paraContainer{
+.ninth .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt9.svg"); */
-    background: url("./public/MobileTxt/Mtxt9.svg");
+    background: url("./public/SpObjects/Mtxt9.svg");
 }
 
-.tenth div #paraContainer{
+.tenth .m-story #paraContainer{
     /* background: url("./public/DesktopTxt/Txt10.svg"); */
-    background: url("./public/MobileTxt/Mtxt10.svg");
+    background: url("./public/SpObjects/Mtxt10.svg");
 }
 
-.eleventh div #paraContainer {
+.eleventh .m-story #paraContainer {
     /* background: url("./public/DesktopTxt/Txt11.svg"); */
-    background: url("./public/MobileTxt/Mtxt11.svg");
+    background: url("./public/SpObjects/Mtxt11.svg");
 }
 
-.twelfth div #paraContainer {
+.twelfth .m-story #paraContainer {
     /* background: url("./public/DesktopTxt/Txt12.svg"); */
-    background: url("./public/MobileTxt/Mtxt12.svg");
+    background: url("./public/SpObjects/Mtxt12.svg");
+}
+
+.thirteenth .m-story #paraContainer {
+    background: url("./public/SpObjects/Mtxt13.svg");
+}
+
+.fourtheenth .m-story #paraContainer {
+    background: url("./public/SpObjects/Mtxt14.svg");
+}
+
+.fifteenth .m-story #paraContainer {
+    background: url("./public/SpObjects/Mtxt15.svg");
 }
 
 
