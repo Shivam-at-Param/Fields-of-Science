@@ -403,7 +403,7 @@ html {
 .eleventh,
 .twelfth {
     display: flex;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -421,9 +421,10 @@ html {
 
 .story #title {
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    /* background-attachment: fixed !important; */
     background-size: auto 20% !important;
     background-position-y: 76% !important;
+    z-index: 2;
 }
 
 .story #img {
@@ -535,18 +536,74 @@ html {
 }
 
 .m-story {
-    /* display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%; */
     margin: 0 auto;
-    min-width: 980px;
     overflow: auto;
     width: 100%;
 }
 
-/******************************************  Mobile view Title   ******************************************/
+/******************************************  Mobile view  ******************************************/
 
+.mobile .container .first {
+    background-image: url("./public/MBack/PBg1.svg");
+}
+
+.mobile .container .second {
+    background-image: url("./public/MBack/PBg2.svg");
+}
+
+.mobile .container .third {
+    background-image: url("./public/MBack/PBg3.svg");
+}
+
+.mobile .container .fourth {
+    background-image: url("./public/MBack/PBg4.svg");
+}
+
+.mobile .container .fifth {
+    background-image: url("./public/MBack/PBg5.svg");
+}
+
+.mobile .container .sixth {
+    background-image: url("./public/MBack/PBg6.svg");
+}
+
+.mobile .container .seventh {
+    background-image: url("./public/MBack/PBg7.svg");
+}
+
+.mobile .container .eight {
+    background-image: url("./public/MBack/PBg8.svg");
+}
+
+.mobile .container .ninth {
+    background-image: url("./public/MBack/PBg9.svg");
+}
+
+.mobile .container .tenth {
+    background-image: url("./public/MBack/PBg10.svg");
+}
+
+.mobile .container .eleventh {
+    background-image: url("./public/MBack/PBg11.svg");
+}
+
+.mobile .container .twelfth {
+    background-image: url("./public/MBack/PBg12.svg");
+}
+
+.mobile .container .thirteenth {
+    background-image: url("./public/MBack/PBg13.svg");
+}
+
+.mobile .container .fourtheenth {
+    background-image: url("./public/MBack/PBg14.svg");
+}
+
+.mobile .container .fifteenth {
+    background-image: url("./public/MBack/PBg15.svg");
+}
+
+/*  Mobile view Title   */
 .first .m-story #title {
     background-image: url("./public/SpObjects/Tit1.svg");
 }
@@ -615,7 +672,7 @@ html {
     padding: 0;
     position: absolute;
     width: inherit;
-    z-index: 10;
+    z-index: 11;
     color: black;
     background-attachment: fixed;
 }
@@ -894,247 +951,3 @@ html {
         display: none;
     }
 }
-
-/* @media screen and (max-width: 430px) {
-    .first {
-        background-image: url('./public/PhoneBack/PhB1.svg');
-    }
-
-    .first div div {
-        background: url('public/PhoneObjects/POb1.svg') 50% 50% fixed;
-    }
-
-    .second {
-        background-image: url("./public/PhoneBack/PhB2.svg");
-    }
-
-    .second div div {
-        background: url('public/PhoneObjects/POb2.svg') 50% 50% fixed;
-    }
-
-    .third {
-        background-image: url('./public/PhoneBack/PhB3.svg');
-    }
-
-    .third div div {
-        background: url('public/PhoneObjects/POb3.svg') 50% 50% fixed;
-    }
-
-    .fourth {
-        background-image: url("./public/PhoneBack/PhB4.svg");
-    }
-
-    .fourth div div {
-        background: url('public/PhoneObjects/POb4.svg') 50% 50% fixed;
-    }
-
-    .fifth {
-        background-image: url("./public/PhoneBack/PhB5.svg");
-    }
-
-    .fifth div div {
-        background: url('public/PhoneObjects/POb5.svg') 50% 50% fixed;
-    }
-
-    .sixth {
-        background-image: url("./public/PhoneBack/PhB6.svg");
-    }
-
-    .sixth div div {
-        background: url('public/PhoneObjects/POb6.svg') 50% 50% fixed;
-    }
-
-    .seventh {
-        background-image: url("./public/PhoneBack/PhB7.svg");
-    }
-
-    .seventh div div {
-        background: url('public/PhoneObjects/POb7.svg') 50% 50% fixed;
-    }
-
-    .eight {
-        background-image: url("./public/PhoneBack/PhB8.svg");
-    }
-
-    .eight div div {
-        background: url('public/PhoneObjects/POb8.svg') 50% 50% fixed;
-    }
-
-    .ninth {
-        background-image: url("./public/PhoneBack/PhB9.svg");
-    }
-
-    .ninth div div {
-        background: url('public/PhoneObjects/POb9.svg') 50% 50% fixed;
-    }
-
-    .tenth {
-        background-image: url("./public/PhoneBack/PhB10.svg");
-    }
-
-    .tenth div div {
-        background: url('public/PhoneObjects/POb10.svg') 50% 50% fixed;
-    }
-
-    .eleventh {
-        background-image: url("./public/PhoneBack/PhB11.svg");
-    }
-
-    .eleventh div div {
-        background: url('public/PhoneObjects/POb11.svg') 50% 50% fixed;
-    }
-
-    .first div div,
-    .second div div,
-    .third div div,
-    .fourth div div,
-    .fifth div div,
-    .sixth div div,
-    .seventh div div,
-    .eight div div,
-    .ninth div div,
-    .tenth div div,
-    .eleventh div div {
-        background-position: center;
-        height: 120%;
-        background-size: contain;
-        background-position-x: left;
-        background-position-y: 80%;
-        background-repeat: no-repeat;
-        padding: 0;
-        position: absolute;
-        width: inherit;
-        z-index: 10;
-        color: black;
-        background-attachment: fixed;
-    }
-
-    .side-nav {
-        display: none;
-    }
-
-}
-@media screen and (max-width: 360px) {
-    .first {
-        background-image: url('./public/PhoneBack/PhB1.svg');
-    }
-
-    .first div div {
-        background: url('public/PhoneObjects/POb1.svg') 50% 50% fixed;
-    }
-
-    .second {
-        background-image: url("./public/PhoneBack/PhB2.svg");
-    }
-
-    .second div div {
-        background: url('public/PhoneObjects/POb2.svg') 50% 50% fixed;
-    }
-
-    .third {
-        background-image: url('./public/PhoneBack/PhB3.svg');
-    }
-
-    .third div div {
-        background: url('public/PhoneObjects/POb3.svg') 50% 50% fixed;
-    }
-
-    .fourth {
-        background-image: url("./public/PhoneBack/PhB4.svg");
-    }
-
-    .fourth div div {
-        background: url('public/PhoneObjects/POb4.svg') 50% 50% fixed;
-    }
-
-    .fifth {
-        background-image: url("./public/PhoneBack/PhB5.svg");
-    }
-
-    .fifth div div {
-        background: url('public/PhoneObjects/POb5.svg') 50% 50% fixed;
-    }
-
-    .sixth {
-        background-image: url("./public/PhoneBack/PhB6.svg");
-    }
-
-    .sixth div div {
-        background: url('public/PhoneObjects/POb6.svg') 50% 50% fixed;
-    }
-
-    .seventh {
-        background-image: url("./public/PhoneBack/PhB7.svg");
-    }
-
-    .seventh div div {
-        background: url('public/PhoneObjects/POb7.svg') 50% 50% fixed;
-    }
-
-    .eight {
-        background-image: url("./public/PhoneBack/PhB8.svg");
-    }
-
-    .eight div div {
-        background: url('public/PhoneObjects/POb8.svg') 50% 50% fixed;
-    }
-
-    .ninth {
-        background-image: url("./public/PhoneBack/PhB9.svg");
-    }
-
-    .ninth div div {
-        background: url('public/PhoneObjects/POb9.svg') 50% 50% fixed;
-    }
-
-    .tenth {
-        background-image: url("./public/PhoneBack/PhB10.svg");
-    }
-
-    .tenth div div {
-        background: url('public/PhoneObjects/POb10.svg') 50% 50% fixed;
-    }
-
-    .eleventh {
-        background-image: url("./public/PhoneBack/PhB11.svg");
-    }
-
-    .eleventh div div {
-        background: url('public/PhoneObjects/POb11.svg') 50% 50% fixed;
-    }
-
-    .first div div,
-    .second div div,
-    .third div div,
-    .fourth div div,
-    .fifth div div,
-    .sixth div div,
-    .seventh div div,
-    .eight div div,
-    .ninth div div,
-    .tenth div div,
-    .eleventh div div {
-        background-position: center;
-        height: 120%;
-        background-size: contain;
-        background-position-x: left;
-        background-position-y: 80%;
-        background-repeat: no-repeat;
-        padding: 0;
-        position: absolute;
-        width: inherit;
-        z-index: 10;
-        color: black;
-        background-attachment: fixed;
-    }
-
-    .top-nav ul {
-        margin-top: 0;
-    } 
-
-    .side-nav {
-        display: none;
-    }
-
-
-} */
